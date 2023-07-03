@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitea"
+    app:layoutDescription="@xml/fragment_history_scene"
+    tools:context=".HistoryFragment">
+
+    <ImageView
+        android:id="@+id/add_img_university"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:clickable="true"
+        android:contentDescription="Add University Img"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_recycling" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="-25dp"
+        android:background="@drawable/background_add_universities_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_img_university">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="18dp"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="   Food waste is a major issue that affects both the environment and society. According to the United Nations Food and Agriculture Organization (FAO), approximately one-third of the world\'s food is wasted every year, which amounts to about 1.3 billion tons. This food waste occurs at various stages of the food supply chain, including production, processing, distribution, and consumption.\n\n    Food waste has negative environmental impacts, including the release of greenhouse gases such as methane, which is a potent contributor to climate change. When food waste ends up in landfills, it decomposes and produces methane gas, which is many times more potent than carbon dioxide as a greenhouse gas. Additionally, food waste requires the use of resources such as water and energy for its production, transportation, and disposal, which can have significant environmental impacts.\n\n   Recycling food waste is important for several reasons. First, it helps to reduce greenhouse gas emissions by diverting food waste from landfills. Instead of decomposing in a landfill, food waste can be processed into compost or used to generate energy through anaerobic digestion. Composting food waste creates a nutrient-rich soil amendment that can be used to improve soil health and fertility, while anaerobic digestion can produce biogas that can be used as a renewable energy source.\n\n   Recycling food waste can also help to conserve resources by reducing the need for fertilizers and other soil amendments, which are often made from non-renewable resources. Additionally, recycling food waste can create economic opportunities by generating new industries, such as composting and anaerobic digestion facilities, and by creating new products, such as compost-based fertilizers.\n\n    In addition to the environmental and economic benefits of recycling food waste, there are also social benefits. Reducing food waste can help to address food insecurity by redirecting surplus food to those in need. In many countries, there are programs that collect surplus food from restaurants, grocery stores, and other food businesses and distribute it to people in need. By reducing food waste and redirecting surplus food to those who need it, we can help to address both food waste and food insecurity.\n\n   Overall, recycling food waste is an important step in reducing the environmental, economic, and social impacts of food waste. By diverting food waste from landfills and creating new products and industries, we can help to create a more sustainable and resilient food system."
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

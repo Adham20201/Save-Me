@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "863627968136",
+    "project_id": "save-me-ef64e",
+    "storage_bucket": "save-me-ef64e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863627968136:android:ee194e4747030e72fce93d",
+        "android_client_info": {
+          "package_name": "com.adham.saveme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863627968136-iffgsj97dukfpc342c3h4uh1ajkdog2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9tuOug8gL2_ZnPJcrIa6RGfFGl-E5b2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863627968136-iffgsj97dukfpc342c3h4uh1ajkdog2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
